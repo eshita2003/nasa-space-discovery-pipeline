@@ -1,0 +1,9 @@
+# Ignore local database files
+*.db
+
+# Ignore local raw and clean data files
+*.csv
+
+# Ignore Python cache folders
+__pycache__/
+*.pyc
