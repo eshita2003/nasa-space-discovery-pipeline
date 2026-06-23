@@ -34,6 +34,6 @@ jobs:
       run: |
         git config --global user.name "Automated Data Pipeline"
         git config --global user.email "pipeline@actions.com"
-        git add raw_imdb_data.csv imdb_movies.db
+        git add raw_imdb_data.csv space_mission.db
         git commit -m "Automated update: Fresh data logs" || echo "No data changes discovered today."
         git push
